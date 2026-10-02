@@ -5,13 +5,11 @@
             public static void main(String[] args) {
 
                 Paciente paciente = new Paciente(
-                        1,
                         "Rodrigo",
                         "00000000000",
                         "rodrigo@gmail.com");
 
                 Paciente paciente2 = new Paciente(
-                        2,
                         "Maria",
                         "12345678911",
                         "maria@gmail.com");
@@ -29,7 +27,7 @@
                         "dor no peito");
 
                 consulta.setMotivo("Falta de ar");
-                consulta.setPaciente(paciente2);
+                consulta.setPaciente(paciente);
 
 
                 System.out.println(consulta.getId());

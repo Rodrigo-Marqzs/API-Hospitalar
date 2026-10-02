@@ -14,11 +14,13 @@ public class Paciente {
     private String cpf;
     private String email;
 
-    public Paciente  (Long id, String nome, String cpf, String email) {
-    this.id = id;
+    public Paciente  (String nome, String cpf, String email) {
     this.nome = nome;
     this.cpf = cpf;
     this.email = email;
+    }
+
+    protected Paciente() {
     }
 
 
