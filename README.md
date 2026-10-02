@@ -52,8 +52,8 @@ Paciente 1 ──── N Consulta N ──── 1 Medico
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Rodrigo-Marqzs/hospital-api.git
-   cd hospital-api
+    git clone https://github.com/Rodrigo-Marqzs/hospital-rest-api.git
+    cd hospital-rest-api
    ```
 2. Crie o banco de dados no PostgreSQL:
    ```sql
